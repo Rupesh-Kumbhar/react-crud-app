@@ -1,11 +1,11 @@
 import React from 'react'
 
-const EditPost = () => {
+const Footer = () => {
   return (
     <div>
-        EditPost
+      Footer
     </div>
   )
 }
 
-export default EditPost
+export default Footer
