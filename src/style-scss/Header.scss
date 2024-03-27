@@ -1,0 +1,112 @@
+.nav-top-fix{
+    // position: fixed;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.nav-item .active{
+    color: #FB2E86;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+// li .active{  
+//     display: block;
+//     text-align: center;
+//     padding: 3%;
+// }
+
+/* only navbar */
+.nav-link{
+    display: block;
+    padding: .5rem 3rem;
+    color: #151875;
+    text-decoration: none;
+    transition: color .45s ease-in-out,background-color .45s ease-in-out,border-color .45s ease-in-out;
+    font-weight: 600;
+    font-size: 20px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    // color: #FB2E86;
+    // border-bottom: 3px solid;
+    // background-color: #fff;
+    // border-color: #FFF #FFF #FB2E86;
+    // font-weight: 700;
+    // font-size: 20px;
+
+    color: #FB2E86;
+    border: 3px solid;
+    border-radius: 13px;
+    background-color: #fff;
+    border-color: #FB2E86;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-tabs .nav-item.show .nav-link {
+    border-color: #FFF #FFF #FB2E86;
+    isolation: isolate;
+    color: #FB2E86;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background: 0 0;
+    border-radius: 13px;
+    border: 1px solid transparent;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: #FB2E86;
+    border-radius: 13px;
+    isolation: isolate;
+}
+
+.nav-link:hover {
+    color: #151875;
+}
+
+.navbar-link-css{
+    color: rgba(0,0,0,.55);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+li .nav-item a{
+    font-weight: 600;
+    font-size: 20px;
+
+}
+a {
+    color: rgba(0,0,0,.55);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+// a :hover{
+//     border-color: #FB2E86;
+//     border-radius: 0px;
+//     isolation: isolate;
+//     border: 2px solid;
+//     border-top: 0px;
+//     border-left: 0px;
+//     border-right: 0px;
+// }
+
+/* styles.css */
+// .navbar-nav .nav-item {
+//     padding: auto 3%;
+// }
+
+
+/* media queries */
+@media screen and (max-width: 992px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,.55);
+        text-align: center !important; 
+    }
+}
