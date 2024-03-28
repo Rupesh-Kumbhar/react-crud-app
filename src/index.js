@@ -11,6 +11,9 @@ import PostDetails from './components/PostDetails';
 import CreatePost from './components/CreatePost';
 import EditPost from './components/EditPost';
 import DeletePost from './components/DeletePost';
+import Login from './components/Login';
+import SignUp from './components/SignUp';
+import UserProfile from './components/UserProfile';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +25,10 @@ const router = createBrowserRouter([
       {path: "posts/:id", element: <PostDetails></PostDetails>},
       {path: "create", element: <CreatePost></CreatePost>},
       {path: "posts/:id/edit", element: <EditPost></EditPost> },
-      {path: "delete", element: <DeletePost></DeletePost>}
+      {path: "delete", element: <DeletePost></DeletePost>},
+      {path: "login", element: <Login></Login> },
+      {path: "signup", element: <SignUp></SignUp> },
+      {path: "profile/:id", element: <UserProfile></UserProfile>},
 
 
     ]
